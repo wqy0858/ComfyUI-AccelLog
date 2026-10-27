@@ -1,6 +1,6 @@
 [project]
 name = "accel-log"
-version = "1.0.0"
+version = "1.0.1"
 description = "ComfyUI 采样加速日志：每次运行自动汇报实际注意力后端、调用次数与来源（纯补丁，无节点，删文件夹即移除）| Reports the actual attention backend, call count and source after every sampling run"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
