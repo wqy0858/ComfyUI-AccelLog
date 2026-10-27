@@ -28,10 +28,13 @@ ComfyUI 加速日志补丁：**每次采样结束，自动在日志里汇报这�
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone <本仓库地址> ComfyUI-AccelLog
+git clone https://github.com/wqy0858/ComfyUI-AccelLog.git ComfyUI-AccelLog
 ```
 
-或者用 ComfyUI-Manager 的「Install via Git URL」粘贴仓库地址。
+或者：
+
+- 用 ComfyUI-Manager 的「Install via Git URL」粘贴仓库地址
+- 在 ComfyUI-Manager 的节点搜索里直接搜 **`accel`**（已上架 Comfy Registry），或命令行 `comfy node install accel-log`
 
 ## 使用
 
